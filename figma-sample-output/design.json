@@ -1,0 +1,927 @@
+{
+  "$generator": "figma-forge",
+  "generated": "2026-11-03T19:28:36.355Z",
+  "component": "Profile Card",
+  "source": "deepseek_html_20261103_086d57.html",
+  "instances": 1,
+  "total": 1,
+  "top": 1,
+  "parts": 0,
+  "colours": [
+    {
+      "name": "color/page-bg",
+      "hex": "#F8FAFC",
+      "dark": "",
+      "role": "page-bg",
+      "layers": [
+        "Page"
+      ]
+    },
+    {
+      "name": "color/bg-default",
+      "hex": "#FFFFFF",
+      "dark": "",
+      "role": "bg-default",
+      "layers": [
+        "Profile Card",
+        "Btn"
+      ]
+    },
+    {
+      "name": "color/border-subtle",
+      "hex": "#E2E8F0",
+      "dark": "",
+      "role": "border-subtle",
+      "layers": [
+        "Profile Card",
+        "Divider"
+      ]
+    },
+    {
+      "name": "color/accent-brand",
+      "hex": "#3730A3",
+      "dark": "",
+      "role": "accent-brand",
+      "layers": [
+        "Avatar"
+      ]
+    },
+    {
+      "name": "color/accent-brand-2",
+      "hex": "#0F172A",
+      "dark": "",
+      "role": "accent-brand-2",
+      "layers": [
+        "Name",
+        "Value"
+      ]
+    },
+    {
+      "name": "color/text-muted",
+      "hex": "#475569",
+      "dark": "",
+      "role": "text-muted",
+      "layers": [
+        "Role",
+        "Desc",
+        "Label"
+      ]
+    },
+    {
+      "name": "color/trend-positive",
+      "hex": "#047857",
+      "dark": "",
+      "role": "trend-positive",
+      "layers": [
+        "Badge"
+      ]
+    }
+  ],
+  "spacing": [
+    {
+      "name": "spacing/1",
+      "value": 4
+    },
+    {
+      "name": "spacing/2",
+      "value": 8
+    },
+    {
+      "name": "spacing/3",
+      "value": 16
+    },
+    {
+      "name": "spacing/4",
+      "value": 24
+    }
+  ],
+  "offGrid": [
+    2
+  ],
+  "radii": [
+    {
+      "name": "radius/md",
+      "value": 8
+    },
+    {
+      "name": "radius/xl",
+      "value": 16
+    },
+    {
+      "name": "radius/full",
+      "value": 50
+    }
+  ],
+  "typeStyles": [
+    {
+      "key": "16|700|0|Inter",
+      "name": "text/base-bold",
+      "size": 16,
+      "weight": 700,
+      "tracking": 0,
+      "lh": "normal",
+      "family": "Inter",
+      "layers": [
+        "Avatar"
+      ],
+      "sample": "FF"
+    },
+    {
+      "key": "18|700|0|Inter",
+      "name": "text/lg-bold",
+      "size": 18,
+      "weight": 700,
+      "tracking": 0,
+      "lh": "normal",
+      "family": "Inter",
+      "layers": [
+        "Name"
+      ],
+      "sample": "Farhad Fesahat"
+    },
+    {
+      "key": "14|400|0|Inter",
+      "name": "text/sm-regular",
+      "size": 14,
+      "weight": 400,
+      "tracking": 0,
+      "lh": "normal",
+      "family": "Inter",
+      "layers": [
+        "Role",
+        "Desc"
+      ],
+      "sample": "Senior Design Engineer"
+    },
+    {
+      "key": "12|600|0|Inter",
+      "name": "text/xs-semibold",
+      "size": 12,
+      "weight": 600,
+      "tracking": 0,
+      "lh": "normal",
+      "family": "Inter",
+      "layers": [
+        "Badge"
+      ],
+      "sample": "Pro Member"
+    },
+    {
+      "key": "20|700|0|Inter",
+      "name": "text/xl-bold",
+      "size": 20,
+      "weight": 700,
+      "tracking": 0,
+      "lh": "normal",
+      "family": "Inter",
+      "layers": [
+        "Value"
+      ],
+      "sample": "24"
+    },
+    {
+      "key": "12|400|0|Inter",
+      "name": "text/xs-regular",
+      "size": 12,
+      "weight": 400,
+      "tracking": 0,
+      "lh": "normal",
+      "family": "Inter",
+      "layers": [
+        "Label"
+      ],
+      "sample": "Projects"
+    },
+    {
+      "key": "15|600|0|Arial",
+      "name": "text/base-semibold",
+      "size": 15,
+      "weight": 600,
+      "tracking": 0,
+      "lh": "normal",
+      "family": "Arial",
+      "layers": [
+        "Btn"
+      ],
+      "sample": "Follow Profile"
+    }
+  ],
+  "tree": {
+    "name": "Profile Card",
+    "kind": "FRAME",
+    "mode": "VERTICAL",
+    "w": 320,
+    "h": 331,
+    "x": "FILL",
+    "y": "HUG",
+    "gap": 16,
+    "pad": {
+      "t": 24,
+      "r": 24,
+      "b": 24,
+      "l": 24
+    },
+    "justify": "MIN",
+    "align": "MIN",
+    "radius": 16,
+    "fill": "#FFFFFF",
+    "ink": "",
+    "stroke": "#E2E8F0",
+    "strokeWidth": 0.8,
+    "svg": "",
+    "font": "Inter",
+    "text": null,
+    "children": [
+      {
+        "name": "Header",
+        "kind": "FRAME",
+        "mode": "HORIZONTAL",
+        "w": 270,
+        "h": 48,
+        "x": "FILL",
+        "y": "HUG",
+        "gap": 16,
+        "pad": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "justify": "MIN",
+        "align": "CENTER",
+        "radius": 0,
+        "fill": "",
+        "ink": "",
+        "stroke": "",
+        "strokeWidth": 0,
+        "svg": "",
+        "font": "Inter",
+        "text": null,
+        "children": [
+          {
+            "name": "Avatar",
+            "kind": "TEXT",
+            "mode": "HORIZONTAL",
+            "w": 48,
+            "h": 48,
+            "x": "FIXED",
+            "y": "FIXED",
+            "gap": 0,
+            "pad": {
+              "t": 0,
+              "r": 0,
+              "b": 0,
+              "l": 0
+            },
+            "justify": "CENTER",
+            "align": "CENTER",
+            "radius": 50,
+            "fill": "#E0E7FF",
+            "ink": "#3730A3",
+            "stroke": "",
+            "strokeWidth": 0,
+            "svg": "",
+            "font": "Inter",
+            "text": {
+              "style": "text/base-bold",
+              "size": 16,
+              "weight": 700,
+              "tracking": 0,
+              "lh": "normal",
+              "value": "FF",
+              "truncate": false,
+              "truncating": false
+            },
+            "children": []
+          },
+          {
+            "name": "Info",
+            "kind": "FRAME",
+            "mode": "VERTICAL",
+            "w": 144,
+            "h": 46,
+            "x": "HUG",
+            "y": "HUG",
+            "gap": 4,
+            "pad": {
+              "t": 0,
+              "r": 0,
+              "b": 0,
+              "l": 0
+            },
+            "justify": "MIN",
+            "align": "MIN",
+            "radius": 0,
+            "fill": "",
+            "ink": "",
+            "stroke": "",
+            "strokeWidth": 0,
+            "svg": "",
+            "font": "Inter",
+            "text": null,
+            "children": [
+              {
+                "name": "Name",
+                "kind": "TEXT",
+                "mode": "NONE",
+                "w": 144,
+                "h": 24,
+                "x": "FILL",
+                "y": "HUG",
+                "gap": 0,
+                "pad": {
+                  "t": 0,
+                  "r": 0,
+                  "b": 0,
+                  "l": 0
+                },
+                "justify": "MIN",
+                "align": "MIN",
+                "radius": 0,
+                "fill": "",
+                "ink": "#0F172A",
+                "stroke": "",
+                "strokeWidth": 0,
+                "svg": "",
+                "font": "Inter",
+                "text": {
+                  "style": "text/lg-bold",
+                  "size": 18,
+                  "weight": 700,
+                  "tracking": 0,
+                  "lh": "normal",
+                  "value": "Farhad Fesahat",
+                  "truncate": false,
+                  "truncating": false
+                },
+                "children": []
+              },
+              {
+                "name": "Role",
+                "kind": "TEXT",
+                "mode": "NONE",
+                "w": 144,
+                "h": 18,
+                "x": "FILL",
+                "y": "HUG",
+                "gap": 0,
+                "pad": {
+                  "t": 0,
+                  "r": 0,
+                  "b": 0,
+                  "l": 0
+                },
+                "justify": "MIN",
+                "align": "MIN",
+                "radius": 0,
+                "fill": "",
+                "ink": "#475569",
+                "stroke": "",
+                "strokeWidth": 0,
+                "svg": "",
+                "font": "Inter",
+                "text": {
+                  "style": "text/sm-regular",
+                  "size": 14,
+                  "weight": 400,
+                  "tracking": 0,
+                  "lh": "normal",
+                  "value": "Senior Design Engineer",
+                  "truncate": false,
+                  "truncating": false
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Badge",
+        "kind": "TEXT",
+        "mode": "NONE",
+        "w": 84,
+        "h": 20,
+        "x": "HUG",
+        "y": "HUG",
+        "gap": 0,
+        "pad": {
+          "t": 2,
+          "r": 8,
+          "b": 2,
+          "l": 8
+        },
+        "justify": "MIN",
+        "align": "MIN",
+        "radius": 50,
+        "fill": "#D1FAE5",
+        "ink": "#047857",
+        "stroke": "",
+        "strokeWidth": 0,
+        "svg": "",
+        "font": "Inter",
+        "text": {
+          "style": "text/xs-semibold",
+          "size": 12,
+          "weight": 600,
+          "tracking": 0,
+          "lh": "normal",
+          "value": "Pro Member",
+          "truncate": false,
+          "truncating": false
+        },
+        "children": []
+      },
+      {
+        "name": "Divider",
+        "kind": "SHAPE",
+        "mode": "NONE",
+        "w": 270,
+        "h": 1,
+        "x": "FILL",
+        "y": "HUG",
+        "gap": 0,
+        "pad": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "justify": "MIN",
+        "align": "MIN",
+        "radius": 0,
+        "fill": "",
+        "ink": "",
+        "stroke": "#E2E8F0",
+        "strokeWidth": 0.8,
+        "svg": "",
+        "font": "Inter",
+        "text": null,
+        "children": []
+      },
+      {
+        "name": "Body",
+        "kind": "FRAME",
+        "mode": "VERTICAL",
+        "w": 270,
+        "h": 100,
+        "x": "FILL",
+        "y": "HUG",
+        "gap": 8,
+        "pad": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "justify": "MIN",
+        "align": "MIN",
+        "radius": 0,
+        "fill": "",
+        "ink": "",
+        "stroke": "",
+        "strokeWidth": 0,
+        "svg": "",
+        "font": "Inter",
+        "text": null,
+        "children": [
+          {
+            "name": "Desc",
+            "kind": "TEXT",
+            "mode": "NONE",
+            "w": 270,
+            "h": 42,
+            "x": "FILL",
+            "y": "HUG",
+            "gap": 0,
+            "pad": {
+              "t": 0,
+              "r": 0,
+              "b": 0,
+              "l": 0
+            },
+            "justify": "MIN",
+            "align": "MIN",
+            "radius": 0,
+            "fill": "",
+            "ink": "#475569",
+            "stroke": "",
+            "strokeWidth": 0,
+            "svg": "",
+            "font": "Inter",
+            "text": {
+              "style": "text/sm-regular",
+              "size": 14,
+              "weight": 400,
+              "tracking": 0,
+              "lh": "21px",
+              "value": "Building scalable SaaS products and bridging the gap between design and code.",
+              "truncate": false,
+              "truncating": false
+            },
+            "children": []
+          },
+          {
+            "name": "Stats",
+            "kind": "FRAME",
+            "mode": "GRID",
+            "w": 270,
+            "h": 42,
+            "x": "FILL",
+            "y": "HUG",
+            "gap": 16,
+            "pad": {
+              "t": 0,
+              "r": 0,
+              "b": 0,
+              "l": 0
+            },
+            "justify": "MIN",
+            "align": "MIN",
+            "radius": 0,
+            "fill": "",
+            "ink": "",
+            "stroke": "",
+            "strokeWidth": 0,
+            "svg": "",
+            "font": "Inter",
+            "text": null,
+            "children": [
+              {
+                "name": "Stat Item",
+                "kind": "FRAME",
+                "mode": "VERTICAL",
+                "w": 127,
+                "h": 42,
+                "x": "FILL",
+                "y": "FILL",
+                "gap": 0,
+                "pad": {
+                  "t": 0,
+                  "r": 0,
+                  "b": 0,
+                  "l": 0
+                },
+                "justify": "MIN",
+                "align": "MIN",
+                "radius": 0,
+                "fill": "",
+                "ink": "",
+                "stroke": "",
+                "strokeWidth": 0,
+                "svg": "",
+                "font": "Inter",
+                "text": null,
+                "children": [
+                  {
+                    "name": "Value",
+                    "kind": "TEXT",
+                    "mode": "NONE",
+                    "w": 127,
+                    "h": 26,
+                    "x": "FILL",
+                    "y": "HUG",
+                    "gap": 0,
+                    "pad": {
+                      "t": 0,
+                      "r": 0,
+                      "b": 0,
+                      "l": 0
+                    },
+                    "justify": "MIN",
+                    "align": "MIN",
+                    "radius": 0,
+                    "fill": "",
+                    "ink": "#0F172A",
+                    "stroke": "",
+                    "strokeWidth": 0,
+                    "svg": "",
+                    "font": "Inter",
+                    "text": {
+                      "style": "text/xl-bold",
+                      "size": 20,
+                      "weight": 700,
+                      "tracking": 0,
+                      "lh": "normal",
+                      "value": "24",
+                      "truncate": false,
+                      "truncating": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "name": "Label",
+                    "kind": "TEXT",
+                    "mode": "NONE",
+                    "w": 127,
+                    "h": 16,
+                    "x": "FILL",
+                    "y": "HUG",
+                    "gap": 0,
+                    "pad": {
+                      "t": 0,
+                      "r": 0,
+                      "b": 0,
+                      "l": 0
+                    },
+                    "justify": "MIN",
+                    "align": "MIN",
+                    "radius": 0,
+                    "fill": "",
+                    "ink": "#475569",
+                    "stroke": "",
+                    "strokeWidth": 0,
+                    "svg": "",
+                    "font": "Inter",
+                    "text": {
+                      "style": "text/xs-regular",
+                      "size": 12,
+                      "weight": 400,
+                      "tracking": 0,
+                      "lh": "normal",
+                      "value": "Projects",
+                      "truncate": false,
+                      "truncating": false
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Stat Item",
+                "kind": "FRAME",
+                "mode": "VERTICAL",
+                "w": 127,
+                "h": 42,
+                "x": "FILL",
+                "y": "FILL",
+                "gap": 0,
+                "pad": {
+                  "t": 0,
+                  "r": 0,
+                  "b": 0,
+                  "l": 0
+                },
+                "justify": "MIN",
+                "align": "MIN",
+                "radius": 0,
+                "fill": "",
+                "ink": "",
+                "stroke": "",
+                "strokeWidth": 0,
+                "svg": "",
+                "font": "Inter",
+                "text": null,
+                "children": [
+                  {
+                    "name": "Value",
+                    "kind": "TEXT",
+                    "mode": "NONE",
+                    "w": 127,
+                    "h": 26,
+                    "x": "FILL",
+                    "y": "HUG",
+                    "gap": 0,
+                    "pad": {
+                      "t": 0,
+                      "r": 0,
+                      "b": 0,
+                      "l": 0
+                    },
+                    "justify": "MIN",
+                    "align": "MIN",
+                    "radius": 0,
+                    "fill": "",
+                    "ink": "#0F172A",
+                    "stroke": "",
+                    "strokeWidth": 0,
+                    "svg": "",
+                    "font": "Inter",
+                    "text": {
+                      "style": "text/xl-bold",
+                      "size": 20,
+                      "weight": 700,
+                      "tracking": 0,
+                      "lh": "normal",
+                      "value": "8.5k",
+                      "truncate": false,
+                      "truncating": false
+                    },
+                    "children": []
+                  },
+                  {
+                    "name": "Label",
+                    "kind": "TEXT",
+                    "mode": "NONE",
+                    "w": 127,
+                    "h": 16,
+                    "x": "FILL",
+                    "y": "HUG",
+                    "gap": 0,
+                    "pad": {
+                      "t": 0,
+                      "r": 0,
+                      "b": 0,
+                      "l": 0
+                    },
+                    "justify": "MIN",
+                    "align": "MIN",
+                    "radius": 0,
+                    "fill": "",
+                    "ink": "#475569",
+                    "stroke": "",
+                    "strokeWidth": 0,
+                    "svg": "",
+                    "font": "Inter",
+                    "text": {
+                      "style": "text/xs-regular",
+                      "size": 12,
+                      "weight": 400,
+                      "tracking": 0,
+                      "lh": "normal",
+                      "value": "Followers",
+                      "truncate": false,
+                      "truncating": false
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Footer",
+        "kind": "FRAME",
+        "mode": "VERTICAL",
+        "w": 270,
+        "h": 48,
+        "x": "FILL",
+        "y": "HUG",
+        "gap": 0,
+        "pad": {
+          "t": 0,
+          "r": 0,
+          "b": 0,
+          "l": 0
+        },
+        "justify": "MIN",
+        "align": "MIN",
+        "radius": 0,
+        "fill": "",
+        "ink": "",
+        "stroke": "",
+        "strokeWidth": 0,
+        "svg": "",
+        "font": "Inter",
+        "text": null,
+        "children": [
+          {
+            "name": "Btn",
+            "kind": "TEXT",
+            "mode": "HORIZONTAL",
+            "w": 270,
+            "h": 48,
+            "x": "FILL",
+            "y": "HUG",
+            "gap": 0,
+            "pad": {
+              "t": 8,
+              "r": 16,
+              "b": 8,
+              "l": 16
+            },
+            "justify": "CENTER",
+            "align": "CENTER",
+            "radius": 8,
+            "fill": "#2563EB",
+            "ink": "#FFFFFF",
+            "stroke": "",
+            "strokeWidth": 0,
+            "svg": "",
+            "font": "Arial",
+            "text": {
+              "style": "text/base-semibold",
+              "size": 15,
+              "weight": 600,
+              "tracking": 0,
+              "lh": "normal",
+              "value": "Follow Profile",
+              "truncate": false,
+              "truncating": false
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "variants": null,
+  "props": {
+    "text": [
+      {
+        "name": "Avatar",
+        "layer": "Avatar",
+        "value": "FF",
+        "style": "text/base-bold",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Name",
+        "layer": "Name",
+        "value": "Farhad Fesahat",
+        "style": "text/lg-bold",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Role",
+        "layer": "Role",
+        "value": "Senior Design Engineer",
+        "style": "text/sm-regular",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Badge",
+        "layer": "Badge",
+        "value": "Pro Member",
+        "style": "text/xs-semibold",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Desc",
+        "layer": "Desc",
+        "value": "Building scalable SaaS products and bridging the gap between design and code.",
+        "style": "text/sm-regular",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Value",
+        "layer": "Value",
+        "value": "24",
+        "style": "text/xl-bold",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Label",
+        "layer": "Label",
+        "value": "Projects",
+        "style": "text/xs-regular",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Value",
+        "layer": "Value",
+        "value": "8.5k",
+        "style": "text/xl-bold",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Label",
+        "layer": "Label",
+        "value": "Followers",
+        "style": "text/xs-regular",
+        "font": "Inter",
+        "truncate": false
+      },
+      {
+        "name": "Btn",
+        "layer": "Btn",
+        "value": "Follow Profile",
+        "style": "text/base-semibold",
+        "font": "Arial",
+        "truncate": false
+      }
+    ],
+    "boolean": [],
+    "swap": []
+  },
+  "states": [
+    {
+      "name": "hover",
+      "decls": "background: var(--brand-hover)",
+      "selector": ".profile-card__btn:hover"
+    },
+    {
+      "name": "focus-visible",
+      "decls": "outline: 2px solid var(--brand-primary); outline-offset: 2px",
+      "selector": ".profile-card__btn:focus-visible"
+    }
+  ],
+  "darkMode": "none",
+  "edges": {
+    "truncate": 0,
+    "mediaShrink": false,
+    "layers": 19,
+    "autoLayout": 9,
+    "grids": 1
+  }
+}

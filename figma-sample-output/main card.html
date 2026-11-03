@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --bg-surface: #FFFFFF;
+    --bg-canvas: #F8FAFC;
+    --text-main: #0F172A;
+    --text-muted: #475569;
+    --border-subtle: #E2E8F0;
+    --brand-primary: #2563EB;
+    --brand-hover: #1D4ED8;
+    --badge-bg: #D1FAE5;
+    --badge-text: #047857;
+    
+    --radius-card: 16px;
+    --radius-btn: 8px;
+    
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-4: 16px;
+    --space-6: 24px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+    background: var(--bg-canvas);
+    padding: var(--space-6);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-6);
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .profile-card {
+    width: 100%;
+    max-width: 320px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-card);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+
+  .profile-card__header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+  }
+
+  .profile-card__avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #E0E7FF;
+    color: #3730A3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+
+  .profile-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .profile-card__name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+
+  .profile-card__role {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  .profile-card__badge {
+    align-self: flex-start;
+    padding: 2px var(--space-2);
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+  }
+
+  .profile-card__divider {
+    border: 0;
+    border-top: 1px solid var(--border-subtle);
+    margin: 0;
+  }
+
+  .profile-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .profile-card__desc {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text-muted);
+  }
+
+  .profile-card__stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+    margin-top: var(--space-2);
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stat-item__value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+
+  .stat-item__label {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  .profile-card__btn {
+    width: 100%;
+    min-height: 48px; /* بالاتر از استاندارد 44px */
+    padding: var(--space-2) var(--space-4);
+    background: var(--brand-primary);
+    color: #FFFFFF;
+    border: none;
+    border-radius: var(--radius-btn);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-card__btn:hover {
+    background: var(--brand-hover);
+  }
+
+  .profile-card__btn:focus-visible {
+    outline: 2px solid var(--brand-primary);
+    outline-offset: 2px;
+  }
+
+</style>
+</head>
+<body>
+
+  <article class="profile-card">
+    <header class="profile-card__header">
+      <div class="profile-card__avatar" aria-hidden="true">FF</div>
+      <div class="profile-card__info">
+        <h2 class="profile-card__name">Farhad Fesahat</h2>
+        <p class="profile-card__role">Senior Design Engineer</p>
+      </div>
+    </header>
+    
+    <div class="profile-card__badge">Pro Member</div>
+    
+    <hr class="profile-card__divider">
+    
+    <div class="profile-card__body">
+      <p class="profile-card__desc">Building scalable SaaS products and bridging the gap between design and code.</p>
+      
+      <div class="profile-card__stats">
+        <div class="stat-item">
+          <span class="stat-item__value">24</span>
+          <span class="stat-item__label">Projects</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item__value">8.5k</span>
+          <span class="stat-item__label">Followers</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <button class="profile-card__btn" type="button">Follow Profile</button>
+    </footer>
+  </article>
+
+</body>
+</html>
